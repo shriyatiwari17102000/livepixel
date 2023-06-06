@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/bizpushpixel" element={<BizpushDashboard />}></Route>
+          <Route path="/livepixelapp" element={<BizpushDashboard />}></Route>
           <Route path="/shoppage" element={<MyNavbar />}></Route>
         </Routes>
       </BrowserRouter>

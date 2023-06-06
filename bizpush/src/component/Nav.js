@@ -24,18 +24,10 @@ function NavBar() {
             className="justify-content-center flex-grow-1"
             style={{ marginLeft: "-10rem" }}
           >
-            <Nav.Link href="#features" className="nav_titles">
-              Home
-            </Nav.Link>
-            <Nav.Link href="#pricing" className="nav_titles">
-              Gallery
-            </Nav.Link>
-            <Nav.Link href="#pricing" className="nav_titles">
-              Shop
-            </Nav.Link>
-            <Nav.Link href="#pricing" className="nav_titles">
-              Contact
-            </Nav.Link>
+            <Nav.Link className="nav_titles">Home</Nav.Link>
+            <Nav.Link className="nav_titles">Gallery</Nav.Link>
+            <Nav.Link className="nav_titles">Shop</Nav.Link>
+            <Nav.Link className="nav_titles">Contact</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#deets">
